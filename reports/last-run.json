@@ -1,7 +1,7 @@
 {
   "repo": "digital-employees",
   "kind": "hub",
-  "run_at": "2026-09-30T23:54:25+08:00",
+  "run_at": "2026-10-01T10:19:40+08:00",
   "cases": 73,
   "passed": 73,
   "failed": 0,
@@ -45,5 +45,14 @@
       "reason": "本仓不含 skills/ 与 workflows/ 文档（入口汇总仓）"
     }
   ],
-  "failures": []
+  "failures": [],
+  "suites_run": [
+    "structure",
+    "contract",
+    "scenario",
+    "script",
+    "doc",
+    "compliance"
+  ],
+  "full": true
 }
