@@ -1,0 +1,72 @@
+skill: digital-employees-catalog
+owner: digital-employees
+employee: 汇总入口
+cases:
+- id: happy-path
+  title: 入口目录：四个分类维度齐备
+  given: 仓库内已有全部员工仓
+  expect:
+  - by-group / by-phase / by-channel / employees 四份索引齐备
+  forbid:
+  - 索引页缺失或为空
+  asserts:
+  - type: file_exists
+    path: catalog/by-group.md
+  - type: file_exists
+    path: catalog/by-phase.md
+  - type: file_exists
+    path: catalog/by-channel.md
+  - type: file_exists
+    path: catalog/skills-index.md
+  - type: file_exists
+    path: catalog/workflow-index.md
+  - type: file_contains
+    path: catalog/by-group.md
+    values:
+    - 独立开发者
+    - 自媒体从业者
+    - 电商商家
+    - 本地生活服务商家
+- id: missing-input
+  title: 入口目录：员工仓缺失必须报错而不是静默通过
+  given: catalog/employees.yaml 里的每个 repo 都要在磁盘上找得到
+  expect:
+  - 契约套件逐条校验员工仓目录存在
+  forbid:
+  - 把缺失当成通过
+  asserts:
+  - type: file_contains
+    path: catalog/employees.yaml
+    values:
+    - 'repo:'
+    - 'count:'
+  - type: count_lines
+    path: catalog/employees.csv
+    expected: 31
+- id: boundary
+  title: 入口目录：不得内联任何实现正文
+  given: 入口仓只应包含索引与链接
+  expect:
+  - 入口仓内不存在 SKILL.md
+  forbid:
+  - 在入口仓复制任何技能正文
+  asserts:
+  - type: no_file
+    name: SKILL.md
+- id: numeric-discipline
+  title: 入口目录：统计数字必须由脚本生成且可回指
+  given: 对照 employees.yaml 与磁盘目录
+  expect:
+  - README 与索引里的数量来自注册表，不是手写
+  forbid:
+  - 出现手写且与注册表不符的统计数字
+  asserts:
+  - type: file_contains
+    path: README.md
+    values:
+    - 全部数字员工
+    - 体系一览
+  - type: file_contains
+    path: catalog/dependency-graph.md
+    values:
+    - 复用度最高的公共技能

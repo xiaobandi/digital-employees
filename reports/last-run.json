@@ -1,0 +1,49 @@
+{
+  "repo": "digital-employees",
+  "kind": "hub",
+  "run_at": "2026-09-30T23:54:25+08:00",
+  "cases": 73,
+  "passed": 73,
+  "failed": 0,
+  "by_suite": {
+    "structure": {
+      "total": 15,
+      "failed": 0
+    },
+    "contract": {
+      "total": 32,
+      "failed": 0
+    },
+    "scenario": {
+      "total": 21,
+      "failed": 0
+    },
+    "compliance": {
+      "total": 5,
+      "failed": 0
+    }
+  },
+  "skipped": [
+    {
+      "suite": "script",
+      "id": "存在自带自测的共享脚本",
+      "reason": "本仓不随技能发布脚本副本（入口汇总仓，只有索引与图表）"
+    },
+    {
+      "suite": "doc",
+      "id": "文档中包含可执行命令",
+      "reason": "本仓不含 skills/ 与 workflows/ 文档（入口汇总仓）"
+    },
+    {
+      "suite": "doc",
+      "id": "文档命令引用的脚本路径都可达",
+      "reason": "本仓不含 skills/ 与 workflows/ 文档（入口汇总仓）"
+    },
+    {
+      "suite": "doc",
+      "id": "校验命令写明了执行目录（cwd）",
+      "reason": "本仓不含 skills/ 与 workflows/ 文档（入口汇总仓）"
+    }
+  ],
+  "failures": []
+}

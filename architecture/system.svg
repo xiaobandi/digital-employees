@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700" font-family="-apple-system,BlinkMacSystemFont,Noto Sans SC,sans-serif">
+<rect width="1000" height="700" fill="#0f1620"/>
+<text x="30" y="46" font-size="21" font-weight="700" fill="#f2f6fb">数字员工体系 · 三层仓库架构</text>
+<text x="30" y="70" font-size="13" fill="#9fb0c6">入口汇总仓 → 30 个员工仓 → 公共底座仓</text>
+<rect x="30" y="96" width="940" height="58" rx="8" fill="#14202c" stroke="#2f6f8f"/><text x="500" y="131" font-size="15" text-anchor="middle" fill="#e8edf5">digital-employees　·　汇总入口（分类索引 / 依赖图）</text>
+<rect x="30" y="186" width="222" height="300" rx="8" fill="#141c2a" stroke="#3a4d68"/>
+<text x="141" y="210" font-size="13" font-weight="600" text-anchor="middle" fill="#c9d4e2">独立开发者（7）</text>
+<text x="42" y="234" font-size="11.5" fill="#8fa6bf">· 出海冷启动获客官</text>
+<text x="42" y="264" font-size="11.5" fill="#8fa6bf">· 发布日冲刺指挥官</text>
+<text x="42" y="294" font-size="11.5" fill="#8fa6bf">· SEO 内容矩阵助理</text>
+<text x="42" y="324" font-size="11.5" fill="#8fa6bf">· 用户反馈聚合分析师</text>
+<text x="42" y="354" font-size="11.5" fill="#8fa6bf">· 多平台发布与数据回捞助理</text>
+<text x="42" y="384" font-size="11.5" fill="#8fa6bf">· 轻量客服与 FAQ 数字员工</text>
+<text x="42" y="414" font-size="11.5" fill="#8fa6bf">· 财税合规助理</text>
+<rect x="266" y="186" width="222" height="300" rx="8" fill="#141c2a" stroke="#3a4d68"/>
+<text x="377" y="210" font-size="13" font-weight="600" text-anchor="middle" fill="#c9d4e2">自媒体从业者（7）</text>
+<text x="278" y="234" font-size="11.5" fill="#8fa6bf">· 爆款选题策划师</text>
+<text x="278" y="264" font-size="11.5" fill="#8fa6bf">· 短视频脚本创作师</text>
+<text x="278" y="294" font-size="11.5" fill="#8fa6bf">· 评论区运营官</text>
+<text x="278" y="324" font-size="11.5" fill="#8fa6bf">· 私域引流转化师</text>
+<text x="278" y="354" font-size="11.5" fill="#8fa6bf">· 多平台分发改写师</text>
+<text x="278" y="384" font-size="11.5" fill="#8fa6bf">· 跨平台数据复盘师</text>
+<text x="278" y="414" font-size="11.5" fill="#8fa6bf">· 商单对接管家</text>
+<rect x="502" y="186" width="222" height="300" rx="8" fill="#141c2a" stroke="#3a4d68"/>
+<text x="613" y="210" font-size="13" font-weight="600" text-anchor="middle" fill="#c9d4e2">电商商家（8）</text>
+<text x="514" y="234" font-size="11.5" fill="#8fa6bf">· 电商 AI 商品视觉</text>
+<text x="514" y="264" font-size="11.5" fill="#8fa6bf">· 智能客服+售后</text>
+<text x="514" y="294" font-size="11.5" fill="#8fa6bf">· 评价管理与差评拦截</text>
+<text x="514" y="324" font-size="11.5" fill="#8fa6bf">· 多平台铺货与库存同步</text>
+<text x="514" y="354" font-size="11.5" fill="#8fa6bf">· 短视频/直播内容</text>
+<text x="514" y="384" font-size="11.5" fill="#8fa6bf">· 选品与竞品情报</text>
+<text x="514" y="414" font-size="11.5" fill="#8fa6bf">· Listing/详情页文案</text>
+<text x="514" y="444" font-size="11.5" fill="#8fa6bf">· 私域复购运营</text>
+<rect x="738" y="186" width="222" height="300" rx="8" fill="#141c2a" stroke="#3a4d68"/>
+<text x="849" y="210" font-size="13" font-weight="600" text-anchor="middle" fill="#c9d4e2">本地生活服务商家（8）</text>
+<text x="750" y="234" font-size="11.5" fill="#8fa6bf">· 探店短视频编导</text>
+<text x="750" y="264" font-size="11.5" fill="#8fa6bf">· 差评灭火官</text>
+<text x="750" y="294" font-size="11.5" fill="#8fa6bf">· 私域复购管家</text>
+<text x="750" y="324" font-size="11.5" fill="#8fa6bf">· 团购引流设计师</text>
+<text x="750" y="354" font-size="11.5" fill="#8fa6bf">· 预约排班调度员</text>
+<text x="750" y="384" font-size="11.5" fill="#8fa6bf">· 会员唤醒师</text>
+<text x="750" y="414" font-size="11.5" fill="#8fa6bf">· 多平台运营中台</text>
+<text x="750" y="444" font-size="11.5" fill="#8fa6bf">· 门店经营日报分析师</text>
+<rect x="30" y="516" width="940" height="76" rx="8" fill="#1a1a14" stroke="#a8892f"/>
+<text x="500" y="548" font-size="15" text-anchor="middle" fill="#e8edf5">agent-skills-core@1.0.0　·　26 公共原子技能 / 9 TOOL / 12 连接器定义</text>
+<text x="500" y="574" font-size="12" text-anchor="middle" fill="#b6a66a">被 ≥2 个员工复用的能力沉淀在这里，员工仓只做外部依赖引用</text>
+<path d="M500,154 L500,186" stroke="#7f8ea3" stroke-width="1.4"/>
+<path d="M500,486 L500,516" stroke="#7f8ea3" stroke-width="1.4"/>
+<text x="500" y="628" font-size="11.5" text-anchor="middle" fill="#6f8299">每个员工仓：私有技能 + 工作流 + 知识库契约 + 连接器绑定 + 自动化测试 + CI</text>
+</svg>
