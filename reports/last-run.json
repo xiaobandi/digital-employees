@@ -1,9 +1,9 @@
 {
   "repo": "digital-employees",
   "kind": "hub",
-  "run_at": "2026-10-01T10:19:40+08:00",
-  "cases": 73,
-  "passed": 73,
+  "run_at": "2026-10-03T12:06:29+08:00",
+  "cases": 74,
+  "passed": 74,
   "failed": 0,
   "by_suite": {
     "structure": {
@@ -11,7 +11,7 @@
       "failed": 0
     },
     "contract": {
-      "total": 32,
+      "total": 33,
       "failed": 0
     },
     "scenario": {
