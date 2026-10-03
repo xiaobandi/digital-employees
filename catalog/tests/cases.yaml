@@ -28,12 +28,13 @@ cases:
     - 电商商家
     - 本地生活服务商家
 - id: missing-input
-  title: 入口目录：员工仓缺失必须报错而不是静默通过
-  given: catalog/employees.yaml 里的每个 repo 都要在磁盘上找得到
+  title: 入口目录：员工引用不可达必须报错而不是静默通过
+  given: catalog/employees.yaml 里的每个 repo 都要在索引里找得到指向它自己的绝对地址（32 个仓各自独立发布，不存在兄弟目录）
   expect:
-  - 契约套件逐条校验员工仓目录存在
+  - 契约套件逐条校验每个员工都有可点击的绝对地址引用
   forbid:
   - 把缺失当成通过
+  - 用 ../ 相对路径冒充可达引用
   asserts:
   - type: file_contains
     path: catalog/employees.yaml
